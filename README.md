@@ -236,7 +236,7 @@ Coming soon
 
 | Metric   | Full Name                           | Category    | Formula                                                      |
 | :------- | :---------------------------------- | :---------- | :----------------------------------------------------------- |
-| **MSE**  | Mean Squared Error                  | Error       | $ \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2 $             |
+| **MSE**  | Mean Squared Error                  | Error       | $\frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2$             |
 | **MAE**  | Mean Absolute Error                 | Error       | $ \frac{1}{n} \sum_{i=1}^n |y_i - \hat{y}_i| $               |
 | **PCC**  | Pearson Correlation Coefficient     | Correlation | $ \frac{\sum_{i=1}^n (y_i - \bar{y})(\hat{y}_i - \bar{\hat{y}})}{\sqrt{\sum_{i=1}^n (y_i - \bar{y})^2}\sqrt{\sum_{i=1}^n (\hat{y}_i - \bar{\hat{y}})^2}} $ |
 | **SSIM** | Structural Similarity Index Measure | Correlation | $ \frac{(2\mu_x \mu_y + c_1)(2\sigma_{xy} + c_2)}{(\mu_x^2 + \mu_y^2 + c_1)(\sigma_x^2 + \sigma_y^2 + c_2)} $ |
