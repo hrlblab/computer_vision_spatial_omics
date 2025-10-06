@@ -238,8 +238,7 @@ Coming soon
 | :------- | :---------------------------------- | :---------- | :----------------------------------------------------------- |
 | **MSE**  | Mean Squared Error                  | Error       | $\frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2$             |
 | **MAE**  | Mean Absolute Error                 | Error       | $\tfrac{1}{n} \sum_{i=1}^n \lvert y_i - \hat{y}_i \rvert$              |
-| **PCC**  | Pearson Correlation Coefficient     | Correlation | $\frac{\sum_{i=1}^n (y_i - \bar{y})(\hat{y}_i - \overline{\hat{y}})}{\sqrt{\sum_{i=1}^n (y_i - \bar{y})^2}
-  \sqrt{\sum_{i=1}^n (\hat{y}_i - \overline{\hat{y}})^2}}$ |
+| **PCC**  | Pearson Correlation Coefficient     | Correlation | $\frac{\sum_{i=1}^n (y_i - \bar{y})(\hat{y}_i - \overline{\hat{y}})}{\sqrt{\sum_{i=1}^n (y_i - \bar{y})^2}\sqrt{\sum_{i=1}^n (\hat{y}_i - \overline{\hat{y}})^2}}$ |
 | **SSIM** | Structural Similarity Index Measure | Correlation | $\frac{(2\mu_x \mu_y + c_1)(2\sigma_{xy} + c_2)}{(\mu_x^2 + \mu_y^2 + c_1)(\sigma_x^2 + \sigma_y^2 + c_2)}$ |
 | **RVD**  | Relative Variance Distance          | Variation   | $\frac{1}{C} \sum_{j=1}^{C} \frac{(\sigma_{\text{pred}}^{2,j} - \sigma_{\text{gt}}^{2,j})^2}{(\sigma_{\text{gt}}^{2,j})^2}$ |
 | **ARI**  | Adjusted Rand Index                 | Clustering  | $\mathrm{ARI} = \frac{\text{Index} - \text{Expected}}{\text{Max} - \text{Expected}}$ |
