@@ -249,6 +249,4 @@ Coming soon
 - $\mu_x, \mu_y, \sigma_x^2, \sigma_y^2, \sigma_{xy}$ are local statistics; $c_1, c_2$ are constants.  
 - $\sigma_{\text{pred}}^{2,j}, \sigma_{\text{gt}}^{2,j}$ are variances of gene $j$; $C$ is the number of genes.  
 - $n_{ij}$ is the contingency table entry, with row sums $n_{i\cdot}$, column sums $n_{\cdot j}$, and $n$ the total number of samples.  
-- ARI can equivalently be computed as:  
-  $ \mathrm{ARI} = \frac{\sum_{ij}\binom{n_{ij}}{2} - [\sum_i \binom{n_{i\cdot}}{2}\sum_j \binom{n_{\cdot j}}{2}]/\binom{n}{2}}{\tfrac{1}{2}[\sum_i \binom{n_{i\cdot}}{2} + \sum_j \binom{n_{\cdot j}}{2}] - [\sum_i \binom{n_{i\cdot}}{2}\sum_j \binom{n_{\cdot j}}{2}]/\binom{n}{2}} $.  
 - $I(U;V)$ is mutual information, and $H(\cdot)$ denotes entropy.
