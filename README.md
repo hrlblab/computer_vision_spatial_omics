@@ -21,9 +21,10 @@ Coming soon
 ## Overview
 
 <figure style="text-align: center;">
-  <img src="./asset/Figure1_timeline.png" alt="Timeline of vision-ST model development" width="80%">
+  <img src="./asset/Figure1_timeline.png" alt="Timeline of vision-ST model development" width="100%">
   <figcaption>Overview of some well-known vision-driven models for spatial transcriptomics from 2020 to 2025 September.</em></figcaption>
 </figure>
+
 
 ## 📖 Table of Contents
 
@@ -44,9 +45,10 @@ Coming soon
 > 📘Summary of vision-driven models and their downstream tasks can be found in Table. 1 in our survey paper.
 
 <figure style="text-align: center;">
-  <img src="./asset/Figure_2_data_tasks.png" alt="Tasks" width="80%">
+  <img src="./asset/Figure_2_data_tasks.png" alt="Tasks" width="100%">
   <figcaption>Representative downstream tasks enabled by histology and ST, including super-resolution, image-to-ST profile translation, clustering into spatial domains, and 3D alignment/reconstruction.</em></figcaption>
 </figure>
+
 
 ------
 
@@ -117,7 +119,7 @@ Coming soon
 > Current learning paradigms mainly include three forms: (A) Regression-based prediction which directly maps histology tiles to gene expression profiles; (B) Retrieval-based searching that aligns image–gene representations and retrieves nearest reference spots to form predictions; (C) Diffusion-based generation which performs conditional noise prediction with a DiT and, at inference, denoises from noise to generate expression maps.
 
 <figure style="text-align: center;">
-  <img src="./asset/Figure_3_training_manner.png" alt="manner" width="80%">
+  <img src="./asset/Figure_3_training_manner.png" alt="manner" width="100%">
   <figcaption>Learning paradigms for image-to-ST Translation Task</em></figcaption>
 </figure>
 
