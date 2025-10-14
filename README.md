@@ -2,7 +2,9 @@
 
 > A curated collection of papers, benchmarks, and resources on image-guided spatial transcriptomics and vision-based omics analysis.
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+ ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg) [![GitHub Repo stars](https://img.shields.io/github/stars/hrlblab/awesome_generative_spatial_omics?style=social)](https://github.com/hrlblab/awesome_generative_spatial_omics)
+
 
 Last updated: 10/05/2025
 
@@ -236,19 +238,19 @@ Coming soon
 
 | Metric   | Full Name                           | Category    | Formula                                                      |
 | :------- | :---------------------------------- | :---------- | :----------------------------------------------------------- |
-| **MSE**  | Mean Squared Error                  | Error       | $ \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2 $             |
-| **MAE**  | Mean Absolute Error                 | Error       | $ \frac{1}{n} \sum_{i=1}^n |y_i - \hat{y}_i| $               |
-| **PCC**  | Pearson Correlation Coefficient     | Correlation | $ \frac{\sum_{i=1}^n (y_i - \bar{y})(\hat{y}_i - \bar{\hat{y}})}{\sqrt{\sum_{i=1}^n (y_i - \bar{y})^2}\sqrt{\sum_{i=1}^n (\hat{y}_i - \bar{\hat{y}})^2}} $ |
-| **SSIM** | Structural Similarity Index Measure | Correlation | $ \frac{(2\mu_x \mu_y + c_1)(2\sigma_{xy} + c_2)}{(\mu_x^2 + \mu_y^2 + c_1)(\sigma_x^2 + \sigma_y^2 + c_2)} $ |
-| **RVD**  | Relative Variance Distance          | Variation   | $ \frac{1}{C} \sum_{j=1}^{C} \frac{(\sigma_{\text{pred}}^{2,j} - \sigma_{\text{gt}}^{2,j})^2}{(\sigma_{\text{gt}}^{2,j})^2} $ |
-| **ARI**  | Adjusted Rand Index                 | Clustering  | $ \mathrm{ARI} = \frac{\text{Index} - \text{Expected}}{\text{Max} - \text{Expected}} $ |
-| **NMI**  | Normalized Mutual Information       | Clustering  | $ \frac{2 \cdot I(U;V)}{H(U) + H(V)} $                       |
+| **MSE**  | Mean Squared Error                  | Error       | $\frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2$             |
+| **MAE**  | Mean Absolute Error                 | Error       | $\tfrac{1}{n} \sum_{i=1}^n \lvert y_i - \hat{y}_i \rvert$              |
+| **PCC**  | Pearson Correlation Coefficient     | Correlation |  |
+| **SSIM** | Structural Similarity Index Measure | Correlation | $\frac{(2\mu_x \mu_y + c_1)(2\sigma_{xy} + c_2)}{(\mu_x^2 + \mu_y^2 + c_1)(\sigma_x^2 + \sigma_y^2 + c_2)}$ |
+| **RVD**  | Relative Variance Distance          | Variation   | $\frac{1}{C} \sum_{j=1}^{C} \frac{(\sigma_{\text{pred}}^{2,j} - \sigma_{\text{gt}}^{2,j})^2}{(\sigma_{\text{gt}}^{2,j})^2}$ |
+| **ARI**  | Adjusted Rand Index                 | Clustering  | $\mathrm{ARI} = \frac{\text{Index} - \text{Expected}}{\text{Max} - \text{Expected}}$ |
+| **NMI**  | Normalized Mutual Information       | Clustering  | $\frac{2 \cdot I(U;V)}{H(U) + H(V)}$                       |
 
 **Notes:**
 - $y_i, \hat{y}_i$ denote ground-truth and prediction; $\bar{y}, \bar{\hat{y}}$ are their means.  
 - $\mu_x, \mu_y, \sigma_x^2, \sigma_y^2, \sigma_{xy}$ are local statistics; $c_1, c_2$ are constants.  
 - $\sigma_{\text{pred}}^{2,j}, \sigma_{\text{gt}}^{2,j}$ are variances of gene $j$; $C$ is the number of genes.  
 - $n_{ij}$ is the contingency table entry, with row sums $n_{i\cdot}$, column sums $n_{\cdot j}$, and $n$ the total number of samples.  
-- ARI can equivalently be computed as:  
-  $ \mathrm{ARI} = \frac{\sum_{ij}\binom{n_{ij}}{2} - [\sum_i \binom{n_{i\cdot}}{2}\sum_j \binom{n_{\cdot j}}{2}]/\binom{n}{2}}{\tfrac{1}{2}[\sum_i \binom{n_{i\cdot}}{2} + \sum_j \binom{n_{\cdot j}}{2}] - [\sum_i \binom{n_{i\cdot}}{2}\sum_j \binom{n_{\cdot j}}{2}]/\binom{n}{2}} $.  
 - $I(U;V)$ is mutual information, and $H(\cdot)$ denotes entropy.
+- ARI can equivalently be computed as: \\
+$\mathrm{ARI} = \tfrac{\sum_{ij}\binom{n_{ij}}{2} - \big[\sum_i \binom{n_{i\cdot}}{2}\sum_j \binom{n_{\cdot j}}{2}\big]/\binom{n}{2}}{\tfrac{1}{2}\big[\sum_i \binom{n_{i\cdot}}{2} + \sum_j \binom{n_{\cdot j}}{2}\big] - \big[\sum_i \binom{n_{i\cdot}}{2}\sum_j \binom{n_{\cdot j}}{2}\big]/\binom{n}{2}}$.  
