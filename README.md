@@ -16,7 +16,16 @@ We strongly encourage researchers who would like to promote their fantastic work
 
 ### Citation
 
-Coming soon
+```
+@article{zhu2025computer,
+  title={Computer Vision Methods for Spatial Transcriptomics: A Survey},
+  author={Zhu, Junchao and Deng, Ruining and Guo, Junlin and Yao, Tianyuan and Lu, Siqi and Qu, Chongyu and Xiong, Juming and Zhu, Yanfan and Lu, Zhengyi and Yang, Yuechen and others},
+  journal={bioRxiv},
+  pages={2025--10},
+  year={2025},
+  publisher={Cold Spring Harbor Laboratory}
+}
+```
 
 ## Overview
 
