@@ -15,7 +15,7 @@ This repo aims to record a comprehensive review of existing vision-driven spatia
 We strongly encourage researchers who would like to promote their fantastic work to the vision-omics survey community  to make a pull request to update their paper’s information!
 
 ### Citation
-Our paper has been accepted by Briefings in Bioinformatics (CCF B, IF 7.7)!
+Our paper has been accepted by **Briefings in Bioinformatics**!
 
 ```
 @article{zhu2026comprehensive,
