@@ -6,7 +6,7 @@
  ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg) [![GitHub Repo stars](https://img.shields.io/github/stars/hrlblab/awesome_generative_spatial_omics?style=social)](https://github.com/hrlblab/awesome_generative_spatial_omics)
 
 
-Last updated: 10/05/2025
+Last updated: 05/31/2026
 
 ## 🎯About This Repository
 
@@ -15,15 +15,18 @@ This repo aims to record a comprehensive review of existing vision-driven spatia
 We strongly encourage researchers who would like to promote their fantastic work to the vision-omics survey community  to make a pull request to update their paper’s information!
 
 ### Citation
+Our paper has been accepted by Briefings in Bioinformatics (CCF B, IF 7.7)!
 
 ```
-@article{zhu2025computer,
-  title={Computer Vision Methods for Spatial Transcriptomics: A Survey},
+@article{zhu2026comprehensive,
+  title={A comprehensive survey of computer vision methods for spatial transcriptomics},
   author={Zhu, Junchao and Deng, Ruining and Guo, Junlin and Yao, Tianyuan and Lu, Siqi and Qu, Chongyu and Xiong, Juming and Zhu, Yanfan and Lu, Zhengyi and Yang, Yuechen and others},
-  journal={bioRxiv},
-  pages={2025--10},
-  year={2025},
-  publisher={Cold Spring Harbor Laboratory}
+  journal={Briefings in Bioinformatics},
+  volume={27},
+  number={3},
+  pages={bbag255},
+  year={2026},
+  publisher={Oxford University Press}
 }
 ```
 
