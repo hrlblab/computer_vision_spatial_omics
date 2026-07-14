@@ -193,6 +193,8 @@ Our paper has been accepted by **Briefings in Bioinformatics**!
 
 **[Nature Method 2025]** Spatial gene expression at single-cell resolution from histology using deep learning with GHIST [[paper](https://www.nature.com/articles/s41592-025-02795-z)] [[code](https://github.com/SydneyBioX/GHIST/tree/main)]
 
+**[medRxiv 2025]** DeepSpot: Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images [[paper](https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v3)] [[code](https://github.com/ratschlab/DeepSpot)]
+
 ------
 
 #### Retrieval-based
