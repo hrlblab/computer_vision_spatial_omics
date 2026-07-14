@@ -96,6 +96,8 @@ Our paper has been accepted by **Briefings in Bioinformatics**!
 
 **[Nature Method 2025]** Spatial gene expression at single-cell resolution from histology using deep learning with GHIST [[paper](https://www.nature.com/articles/s41592-025-02795-z)] [[code](https://github.com/SydneyBioX/GHIST/tree/main)]
 
+**[Bioinformatics 2026]** Representation learning for multi-modal spatially resolved transcriptomics data [[paper](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag316/8692433)] [[code](https://github.com/ratschlab/aestetik)]
+
 ------
 
 ### Super Resolution
