@@ -96,6 +96,8 @@ Our paper has been accepted by **Briefings in Bioinformatics**!
 
 **[Nature Method 2025]** Spatial gene expression at single-cell resolution from histology using deep learning with GHIST [[paper](https://www.nature.com/articles/s41592-025-02795-z)] [[code](https://github.com/SydneyBioX/GHIST/tree/main)]
 
+**[Bioinformatics 2026]** Representation learning for multi-modal spatially resolved transcriptomics data [[paper](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag316/8692433)] [[code](https://github.com/ratschlab/aestetik)]
+
 ------
 
 ### Super Resolution
@@ -192,6 +194,10 @@ Our paper has been accepted by **Briefings in Bioinformatics**!
 **[Briefings in Bioinformatics 2025]** stImage: a versatile framework for optimizing spatial transcriptomic analysis through customizable deep histology and location informed integration [[paper](https://academic.oup.com/bib/article/26/5/bbaf429/8247981)] [[code](https://github.com/YuWang-VUMC/stImage)]
 
 **[Nature Method 2025]** Spatial gene expression at single-cell resolution from histology using deep learning with GHIST [[paper](https://www.nature.com/articles/s41592-025-02795-z)] [[code](https://github.com/SydneyBioX/GHIST/tree/main)]
+
+**[medRxiv 2025]** DeepSpot: Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images [[paper](https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v3)] [[code](https://github.com/ratschlab/DeepSpot)]
+**[NeurIPS 2025]** DeepSpot2Cell: Predicting Virtual Single-Cell Spatial Transcriptomics from H&E images using Spot-Level Supervision [[paper](https://openreview.net/forum?id=ofCkwXQKaz)] [[code](https://github.com/ratschlab/DeepSpot2Cell)]
+**[medRxiv 2026]** DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology [[paper](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1)] [[code](https://github.com/ratschlab/DeepSpotM)]
 
 ------
 
