@@ -6,7 +6,7 @@
  ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg) [![GitHub Repo stars](https://img.shields.io/github/stars/hrlblab/awesome_generative_spatial_omics?style=social)](https://github.com/hrlblab/awesome_generative_spatial_omics)
 
 
-Last updated: 07/17/2026
+Last updated: 10/28/2026
 
 ## 🎯About This Repository
 
