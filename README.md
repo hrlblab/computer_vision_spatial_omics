@@ -199,7 +199,7 @@ Our paper has been accepted by **Briefings in Bioinformatics**!
 **[NeurIPS 2025]** DeepSpot2Cell: Predicting Virtual Single-Cell Spatial Transcriptomics from H&E images using Spot-Level Supervision [[paper](https://openreview.net/forum?id=ofCkwXQKaz)] [[code](https://github.com/ratschlab/DeepSpot2Cell)]
 **[medRxiv 2026]** DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology [[paper](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1)] [[code](https://github.com/ratschlab/DeepSpotM)]
 
-**[arXiv 2026]** VOICE: A Vision-Omics Foundation Model Integrating Direct and Retrieval-Based Prediction of In-situ Single-Cell Gene Expression [[paper](https://arxiv.org/abs/2608.08366)] [[code](https://github.com/Luosanj/VOICE_HE_ST_Pred)]
+**[arXiv 2026, accepted by KDD 2027 (Oral)]** VOICE: A Vision-Omics Foundation Model Integrating Direct and Retrieval-Based Prediction of In-situ Single-Cell Gene Expression [[paper](https://arxiv.org/abs/2608.08366)] [[code](https://github.com/Luosanj/VOICE_HE_ST_Pred)]
 
 ------
 
@@ -215,7 +215,7 @@ Our paper has been accepted by **Briefings in Bioinformatics**!
 
 **[Briefings in Bioinformatics 2025]** DANet: spatial gene expression prediction from H&E histology images through dynamic alignment [[paper](https://academic.oup.com/bib/article/26/4/bbaf422/8238523)] [[code](https://github.com/202324131016T/DANet)]
 
-**[arXiv 2026]** VOICE: A Vision-Omics Foundation Model Integrating Direct and Retrieval-Based Prediction of In-situ Single-Cell Gene Expression [[paper](https://arxiv.org/abs/2608.08366)] [[code](https://github.com/Luosanj/VOICE_HE_ST_Pred)]
+**[arXiv 2026, accepted by KDD 2027 (Oral)]** VOICE: A Vision-Omics Foundation Model Integrating Direct and Retrieval-Based Prediction of In-situ Single-Cell Gene Expression [[paper](https://arxiv.org/abs/2608.08366)] [[code](https://github.com/Luosanj/VOICE_HE_ST_Pred)]
 
 ------
 
