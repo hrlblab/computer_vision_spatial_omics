@@ -198,6 +198,7 @@ Our paper has been accepted by **Briefings in Bioinformatics**!
 **[medRxiv 2025]** DeepSpot: Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images [[paper](https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v3)] [[code](https://github.com/ratschlab/DeepSpot)]
 **[NeurIPS 2025]** DeepSpot2Cell: Predicting Virtual Single-Cell Spatial Transcriptomics from H&E images using Spot-Level Supervision [[paper](https://openreview.net/forum?id=ofCkwXQKaz)] [[code](https://github.com/ratschlab/DeepSpot2Cell)]
 **[medRxiv 2026]** DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology [[paper](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1)] [[code](https://github.com/ratschlab/DeepSpotM)]
+**[medRxiv 2026]** Virtual spatial transcriptomics links kidney histopathology to disease-associated molecular programs [[paper](https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1)] [[code](https://github.com/ratschlab/projects2026-kidney-kpmp-analysis)]
 
 **[arXiv 2026, accepted by KDD 2027 (Oral)]** VOICE: A Vision-Omics Foundation Model Integrating Direct and Retrieval-Based Prediction of In-situ Single-Cell Gene Expression [[paper](https://arxiv.org/abs/2608.08366)] [[code](https://github.com/Luosanj/VOICE_HE_ST_Pred)]
 
@@ -256,6 +257,8 @@ Our paper has been accepted by **Briefings in Bioinformatics**!
 | 2025-Jun | CRC-HD [[Source](https://www.10xgenomics.com/platforms/visium/product-family/dataset-human-crc)] | High-definition spatial transcriptomic profiling of immune cell populations in colorectal cancer[[paper](https://www.nature.com/articles/s41588-025-02193-3)] | Bin-level   | Bowel             | 5          | 5      | -       | ST Prediction                           |
 | 2026-Jun | TCGA-vST [[Source](https://huggingface.co/datasets/ratschlab/TCGA_virtual_spatial_transcriptomics_atlas)] | DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology [[paper](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1)] | Spot-level (predicted) | Multi-organ (32) | - | ~28.7k | ~296M | Virtual ST |
 | 2026-Jun | HEST-Xenium-vST [[Source](https://huggingface.co/datasets/ratschlab/HEST_Xenium_virtual_spatial_transcriptomics)] | DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology [[paper](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1)] | Cell-level (predicted) | Multi-organ (14) | - | 59 | ~13.3M | Virtual ST |
+| 2026-Nov | KPMP-vST [[Source](https://huggingface.co/datasets/ratschlab/KPMP_virtual_spatial_transcriptomics_atlas)] | Virtual spatial transcriptomics links kidney histopathology to disease-associated molecular programs [[paper](https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1)] | Spot-level (predicted) | Kidney | 476 | 1,534 | ~5.46M | Virtual ST |
+| 2026-Nov | KPMP-Xenium-vST [[Source](https://huggingface.co/datasets/ratschlab/KPMP_Xenium_virtual_spatial_transcriptomics)] | Virtual spatial transcriptomics links kidney histopathology to disease-associated molecular programs [[paper](https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1)] | Cell-level (predicted) | Kidney | - | 49 | ~1.64M | Virtual ST |
 
 ## Evaluation Metrics
 
